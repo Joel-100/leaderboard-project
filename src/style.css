@@ -1,0 +1,53 @@
+body {
+  padding-left: 2em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.container {
+  display: flex;
+  gap: 5em;
+}
+
+.table-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+  width: 16em;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.nameList li {
+  padding: 10px;
+}
+
+.nameList li:nth-child(even) {
+  background-color: rgb(209, 209, 209);
+}
+
+form h2 {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 18em;
+}
+
+.button-control {
+  text-align: right;
+}
