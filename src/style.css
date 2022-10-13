@@ -26,8 +26,21 @@ h1 {
 }
 
 button {
-  padding: 5px;
+  padding: 8px;
   cursor: pointer;
+  background-color: rgba(191, 215, 245, 0.742);
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid rgba(191, 215, 245, 0.742);
 }
 
 .nameList li {
@@ -35,7 +48,7 @@ button {
 }
 
 .nameList li:nth-child(even) {
-  background-color: rgb(209, 209, 209);
+  background-color: rgba(191, 215, 245, 0.742);
 }
 
 form h2 {
