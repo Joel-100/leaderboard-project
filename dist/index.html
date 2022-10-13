@@ -14,25 +14,17 @@
       <div class="table">
         <div class="table-head">
           <h2>Recent Scores</h2>
-          <button>Refresh</button>
+          <button class="refreshButton">Refresh</button>
         </div>
-        <ul class="nameList">
-          <li>Name: 100</li>
-          <li>Name: 20</li>
-          <li>Name: 50</li>
-          <li>Name: 78</li>
-          <li>Name: 125</li>
-          <li>Name: 77</li>
-          <li>Name: 42</li>
-        </ul>
+        <ul class="nameList"></ul>
       </div>
       <div class="form">
         <form>
           <h2>Add your score</h2>
-          <input type="text" id="myId" name="myName" placeholder="Your name"><br>
-          <input type="text" id="scoreId" name="scoreName" placeholder="Your score"><br>
+          <input type="text" id="name" name="myName" placeholder="Your name"><br>
+          <input type="text" id="score" name="scoreName" placeholder="Your score"><br>
           <div class="button-control">
-            <button>Submit</button>
+            <button type="button" class="submitButton">Submit</button>
           </div>
         </form>
       </div>
